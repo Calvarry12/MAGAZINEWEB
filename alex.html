@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Manny-pacquiao</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      transition: margin-left 0.5s;
+    }
+  
+    header {
+      background-color: #1c1c1c;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      z-index: 1000;
+    }
+  
+    header img {
+      max-width: 100%;
+      max-height: 0%;
+    }
+  
+    .featured-article,
+    article {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+  
+    .featured-article img,
+    article img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+  
+    .hamburger-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #1c1c1c;
+      padding: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1001;
+    }
+  
+    .sidebar {
+      width: 0;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #1c1c1c;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      z-index: 995; /* Lowered the z-index */
+    }
+  
+    .hamburger-menu .open-sidebar-btn {
+      color: #fff;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  
+    .sidebar a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #4e4d4d;
+      display: block;
+      transition: 0.3s;
+    }
+  
+    .sidebar a:hover {
+      color: #333333;
+    }
+  
+    .sidebar .close-btn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 30px;
+      margin-left: 50px;
+    }
+  
+    .hamburger-menu.active .sidebar {
+      width: 250px;
+    }
+  
+    body.active {
+      margin-left: 250px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hamburger-menu">
+    <!-- Button to open the sidebar -->
+    <button class="open-sidebar-btn" onclick="toggleNav()">☰</button>
+  </div>
+
+  <div class="sidebar">
+    <a href="javascript:void(0)" class="close-btn" onclick="toggleNav()">x</a>
+    <!-- Move Home link here -->
+    <a href="testing.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="#">Contact</a>
+</div>
+
+  
+
+  <header>
+    <img src="alex-gonzaga-1702863567.jpg" alt="Magazine Logo">
+    <h1>A|P Magazine</h1>
+  </header>
+
+  <div class="featured-article">
+    <img src="alex+gonzaga+rise+to+youtube+fame+2022.jpg" alt="Featured Article">
+    <h2>Catherine Cruz Gonzaga-Morada</h2>
+    <p>Early life
+      Alex Gonzaga was born Catherine Cruz Gonzaga on January 16, 1988, in Taytay, a first-class densely populated municipality of Rizal, to spouses Crisanta "Pinty" Cruz and then-incumbent Vice-Mayor Carlito "Bonoy" Gonzaga. Her elder sister is TV host and actress Toni Gonzaga.
+      
+      Alex graduated from the University of Asia and the Pacific with a Bachelor of Science in Child Development and Education.[3]
+      She was also cast on her first film under Star Cinema, The Amazing Praybeyt Benjamin (2014), one of the official entries to the 40th Metro Manila Film Festival.[27][28][29] The film was commercially successful and achieved the milestones for having the highest-gross on opening day of any local film[30] and the title of being one of the highest-grossing local film of all time in the Philippines. The film received mixed to negative reviews from critics. Zig Marasigan from Rappler described the film in his movie review as "a brainless, hyper-stylized and utterly ridiculous family comedy."[31]
+
+      Gonzaga released her debut studio album I Am Alex G. (2015) with the studio album's lead hit single, "Panaginip Lang", under Star Music. The studio album had a grand launch at Eastwood Central Plaza on March 22, 2015,[32] and a concert,[28] AG from the East: The Unexpected Concert, which was later on held at the Araneta Coliseum to support her studio album on April 25, 2015. She had another major project as the lead star of the fantasy series Inday Bote,[33][34][35][36] a TV adaptation of the classic Filipino film of the same title.[35][37] She also took hosting duties in the original, local dance competition show Dance Kids, alongside Robi Domingo.[38][39]</p>
+    <a href="https://en.wikipedia.org/wiki/Angel_Locsin">Read More</a>
+  </div>
+
+  <article>
+    <img src="Alex.jpg" alt="Article 1">
+    <h2>Personal life</h2>
+    <p>In November 2016, Gonzaga began dating Lipa City councilor Michael "Mikee" Morada.[4] On January 16, 2020, Gonzaga announced on Instagram that she and Morada were engaged.[5] On January 17, 2021, Gonzaga announced on her YouTube channel that she and Morada have been married in a private wedding at the Gonzaga residence in Taytay since November 2020.[6]
+
+      In a vlog uploaded to her YouTube channel on October 24, 2020, Gonzaga and her family tested positive for COVID-19, and she shared how they recovered from the virus.[7]
+      
+      In 2021, Gonzaga was pregnant with her first child, until she suffered a miscarriage.[8] On October 2023, she suffered a second miscarriage.[9][10]</p>
+    <a href="https://en.wikipedia.org/wiki/Angel_Locsin">Read More</a>
+  </article>
+
+  <article>
+    <img src="dotnet-banner-2023-11-05T142251.webp" alt="Article 2">
+    <h2>Career | 2006–2012: Early works</h2>
+    <p>Gonzaga started her career on ABS-CBN for the sitcom, Let's Go!, where she played the role of Alex, which also became her personal nickname. Her role lasted until the series' fourth season called Gokada Go!. After her departure from the sitcom, she was cast in different dramas on the same network, such as Pangarap na Bituin, Your Song and My Girl.[11][12]
+      In 2008, Gonzaga transferred to TV5 and became one of the hosts for the talk show, Juicy!. She played a lead role in the 2011 soap opera Babaeng Hampaslupa. Further roles on the network include BFGF, P.S. I Love You and Enchanted Garden.[13][14]</p>
+    <a href="https://en.wikipedia.org/wiki/Angel_Locsin">Read More</a>
+  </article>
+
+  <script>
+    function toggleNav() {
+      var body = document.querySelector('body');
+      body.classList.toggle('active');
+      var hamburgerMenu = document.querySelector('.hamburger-menu');
+      hamburgerMenu.classList.toggle('active');
+      var sidebar = document.querySelector('.sidebar');
+      sidebar.classList.toggle('active');
+    }
+  </script>
+</body>
+
+</html>

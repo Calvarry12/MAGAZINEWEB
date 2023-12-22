@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A|P Magazine</title>
+  <!-- Include Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    
+
+    header {
+      margin-top: 50px;
+      color: #fff;
+      padding: 50px;
+      text-align: center;
+      position: relative;
+      z-index: 1000;
+    }
+
+    header img {
+      max-width: 200%;
+    }
+
+    .featured-article,
+    article {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .featured-article img,
+    article img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    body.active {
+      margin-left: 250px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container container-fluid">
+      <a class="navbar-brand" href="#">A|P Magazine</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Technology</a></li>
+              <li><a class="dropdown-item" href="#">Science</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Travel</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <img src="duterte-ttp-23may22.jpg" alt="A|P Magazine Logo">
+  </header>
+
+  <div class="container">
+    <div class="featured-article">
+      <img src="President_Rodrigo_Duterte.jpg" alt="Featured Article">
+      <h2>16th President of the Philippines | President Rodrigo Duterte</h2>
+      <p>Rodrigo Roa Duterte was born on March 28, 1945, in Maasin, Southern Leyte.[47] His father was Vicente Gonzales Duterte (1911–1968), a Cebuano lawyer, and his mother,  Soledad Gonzales Roa (1916–2012), was a schoolteacher from Cabadbaran, Agusan and a civic leader of Maranao descent. Duterte has said that his grandfather was Chinese and 
+        hailed from Xiamen in Fujian, China.[48] Duterte has four siblings: Eleanor, Jocelyn, Emmanuel and Benjamin.[49]Duterte's father was mayor of Danao, Cebu, and subsequently the provincial governor of (the then-undivided) Davao province. Rodrigo's cousin Ronald was mayor
+         of Cebu City from 1983 to 1986. Ronald's father, Ramon Duterte, also held that position from 1957 to 1959. The Dutertes consider the Cebu-based political families of the Durano and the Almendras clan as relatives.[50][51] Duterte also has relatives from the Roa clan in Leyte through his mother's side.[52] Duterte's family lived in Maasin, and in his father's hometown in Danao, until he was four years old.[53] Duterte was heavily influenced by his mother, 
+          who unlike Vicente was a staunch anti-Marcos activist, which led the young Duterte to have a divided opinion on the Marcoses. Duterte later said Marcos
+           could have been the best president, but unfortunately he was a dictator.[54] The Dutertes initially moved to Mindanao in 1948 but still went back and
+            forth to the Visayas until 1949.[55] They finally
+         settled in the Davao Region in 1950. Vicente worked as a lawyer engaged in private practice. Soledad worked as a teacher until 1952, when Vicente entered politics.[56]</p>
+      <a href="https://en.wikipedia.org/wiki/Rodrigo_Duterte" class="btn btn-primary">Read More</a>
+    </div>
+
+    <article>
+      <img src="Du30.jpg" alt="Article 1">
+      <h2>Education and early law career</h2>
+      <p>Duterte went to Laboon Elementary School in Maasin for a year.[52] He spent his remaining elementary days at Santa
+         Ana Elementary School in Davao City, where he completed his primary education in 1956. He finished his secondary education in 
+         the High School Department of Holy Cross College of Digos (now Cor Jesu College) in Digos, Davao province, after being expelled
+          twice from previous schools, including one in the Ateneo de Davao University (AdDU) High School due to misconduct.[57] He graduated in 1968 with a Bachelor of Arts degree in 
+          political science at the Lyceum of the Philippines in Manila.[58][59]
+        He obtained a law degree from San Beda College of Law in 1972.[60] In the same year, he passed the bar exam.[61] Duterte eventually became a special counsel at the City Prosecution Office in Davao City from 1977 to 1979, fourth assistant city prosecutor from 1979 to 1981, third assistant city prosecutor from 1981 to 1983, and second assistant city prosecutor from 1983 to 1986.[62][63]</p>
+      <a href="https://en.wikipedia.org/wiki/Rodrigo_Duterte" class="btn btn-primary">Read More</a>
+    </article>
+
+    <article>
+      <img src="gettyimages-599446676-05ad020db599a8602e894dfeb63b81ac1ff95c2e-s1100-c50.jpg" alt="Article 2">
+      <h2>Sexual abuse claims</h2>
+      <p>Duterte has claimed he was sexually abused by a priest when he was a minor.[64] After he was challenged by the Catholic Bishops' Conference of the Philippines (CBCP) 
+        and AdDU officials to name the priest and file a case against him, Duterte then revealed the priest's name as Mark Falvey (d. 1975).[64] The 
+        Jesuits of the Society of Jesus in the Philippines confirmed that according to press reports in the United States, in May 2007, the Society of 
+        Jesus agreed to a tentative payout of US$16 million to settle claims that Falvey sexually abused at least nine children in Los Angeles from 1959 to 1975. 
+        Accusations against Falvey began in 2002 but he was never charged with a crime. In May 2008, the Diocese of Sacramento paid a $100,000-settlement to a person 
+        allegedly raped and molested by Mark's brother, Arthur Falvey. However, it was not clearly indicated in the report if Mark Falvey was assigned at the Jesuit-run Ateneo de Davao.[65]
+
+        When asked why he did not complain when the abuse supposedly happened, Duterte claimed that he was too young to complain about the priest's
+         abuse and was intimidated by authorities at that time. He also stated that he never disclosed that information after he was expelled and moved to a different high school and especially not to his family.[66]</p>
+      <a href="https://en.wikipedia.org/wiki/Rodrigo_Duterte" class="btn btn-primary">Read More</a>
+    </article>
+  </div>
+
+  <!-- Include Bootstrap JS and Popper.js (required for Bootstrap 5) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

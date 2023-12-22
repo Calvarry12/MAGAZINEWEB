@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Manny-pacquiao</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      transition: margin-left 0.5s;
+    }
+  
+    header {
+      background-color: #1c1c1c;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      z-index: 1000;
+    }
+  
+    header img {
+      max-width: 100%;
+      max-height: 0%;
+    }
+  
+    .featured-article,
+    article {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+  
+    .featured-article img,
+    article img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+  
+    .hamburger-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #1c1c1c;
+      padding: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1001;
+    }
+  
+    .sidebar {
+      width: 0;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #1c1c1c;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      z-index: 995; /* Lowered the z-index */
+    }
+  
+    .hamburger-menu .open-sidebar-btn {
+      color: #fff;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  
+    .sidebar a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #4e4d4d;
+      display: block;
+      transition: 0.3s;
+    }
+  
+    .sidebar a:hover {
+      color: #333333;
+    }
+  
+    .sidebar .close-btn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 30px;
+      margin-left: 50px;
+    }
+  
+    .hamburger-menu.active .sidebar {
+      width: 250px;
+    }
+  
+    body.active {
+      margin-left: 250px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hamburger-menu">
+    <!-- Button to open the sidebar -->
+    <button class="open-sidebar-btn" onclick="toggleNav()">☰</button>
+  </div>
+
+  <div class="sidebar">
+    <a href="javascript:void(0)" class="close-btn" onclick="toggleNav()">x</a>
+    <!-- Move Home link here -->
+    <a href="testing.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="About.html">Contact</a>
+</div>
+
+  
+
+  <header>
+    <img src="2017-11-23_17_51_01_Lovi-Poe.jpg" alt="Magazine Logo">
+    <h1>A|P Magazine</h1>
+  </header>
+
+  <div class="featured-article">
+    <img src="333055237_133259563016379_3293754330536574177_n.jpg" alt="Featured Article">
+    <h2>Filipino Actress | Lovi Poe</h2>
+    <p>Early and personal life
+      Lourdes Virginia Moran Poe was born in St. Luke's Medical Center in Quezon City.[1] She was conceived from an affair between Filipino actors Fernando Poe Jr., who was married to Susan Roces, and Rowena Moran, who was his co-star in Kapag Puno Na ang Salop (1987). Poe was raised by Moran as a single mother. Growing up, she had spent limited time with her father in secret as she was raised abroad. She was publicly acknowledged by her father in 2004 during his presidential campaign.[1][9] Through her father, she has two older siblings, senator Grace and DJ Ronian, and through her mother, she has a younger sister, singer Mariel.[10][11] Although Roces knew about Lovi, Grace found out about Lovi during her father's campaign and the sisters met during their father's wake.[9]
+      Poe finished high school at the Colegio San Agustin in Makati where she graduated in 2007. She then later took courses at the International Academy of Management and Economics and Miriam College.[12][13]
+      Poe endorsed her sister Grace in the 2016 Philippine general election and the 2019 Philippine Senate election.[14][15]
+      On August 26, 2023, Poe married British movie producer Monty Blencowe at Cliveden House near Berkshire, England. They announced their engagement publicly on August 8, 2023.[16]</p>
+    <a href="https://en.wikipedia.org/wiki/Cogie_Domingo">Read More</a>
+  </div>
+
+  <article>
+    <img src="900_675_5__20190831125013.png" alt="Article 1">
+    <h2>Career</h2>
+    <p>At age 13, he joined the cast of ABS-CBN's Cyberkada. This was followed by Regal Films' horror flick, Sa Piling ng mga Aswang (1999), in which he starred opposite Maricel Soriano. His next project was Jose Javier Reyes' Yakapin Mo ang Umaga (2000), where he played son to Christopher de Leon and Lorna Tolentino. But what was his most memorable is his lead portrayal of the juvenile prisoner in the award-winning filmfest entry, Deathrow in 2000, in which he co-starred with Eddie Garcia and was coached by director Joel Lamangan. He also starred in different television shows such as Ikaw Lang ang Mamahalin with Angelika dela Cruz, Kung Mawawala Ka with Sunshine Dizon and Bakekang with Lovi Poe.
+      His career began in ABS-CBN at 1993 at the age of 8, as first seen in Star Drama Presents. In 1999, he moved to GMA Network until 2006.</p>
+    <a href="https://en.wikipedia.org/wiki/Cogie_Domingo">Read More</a>
+  </article>
+
+  <article>
+    <img src="lovi-poe-artist-spotlight-2.webp" alt="Article 2">
+    <h2>PATH OF SUCCESS</h2>
+    <p>Personal life
+      Domingo is the son of a lawyer. The actor was linked to different actresses like Anne Curtis, Angel Locsin, Sunshine Dizon, and Lovi Poe. In September 2009, it was reported in the news that he had an affair with Rachel Tiongson while she was still cohabiting with politician and businessman Chavit Singson.[1] On March 11, 2016, Domingo married his long-time girlfriend, Ria Sacasas, in an intimate ceremony.[2] Domingo has one daughter with a former girlfriend.[3]
+      On October 27, 2017, Domingo and two other persons were arrested by PDEA for possession of illegal drugs.[4][5] Three days later, Domingo was allowed by PDEA to post bail; he remain imprisoned until November 2017.</p>
+    <a href="https://en.wikipedia.org/wiki/Cogie_Domingo">Read More</a>
+  </article>
+
+  <script>
+    function toggleNav() {
+      var body = document.querySelector('body');
+      body.classList.toggle('active');
+      var hamburgerMenu = document.querySelector('.hamburger-menu');
+      hamburgerMenu.classList.toggle('active');
+      var sidebar = document.querySelector('.sidebar');
+      sidebar.classList.toggle('active');
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Manny-pacquiao</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      transition: margin-left 0.5s;
+    }
+  
+    header {
+      background-color: #1c1c1c;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      z-index: 1000;
+    }
+  
+    header img {
+      max-width: 100%;
+      max-height: 0%;
+    }
+  
+    .featured-article,
+    article {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+  
+    .featured-article img,
+    article img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+  
+    .hamburger-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #1c1c1c;
+      padding: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1001;
+    }
+  
+    .sidebar {
+      width: 0;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #1c1c1c;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      z-index: 995; /* Lowered the z-index */
+    }
+  
+    .hamburger-menu .open-sidebar-btn {
+      color: #fff;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  
+    .sidebar a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #4e4d4d;
+      display: block;
+      transition: 0.3s;
+    }
+  
+    .sidebar a:hover {
+      color: #333333;
+    }
+  
+    .sidebar .close-btn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 30px;
+      margin-left: 50px;
+    }
+  
+    .hamburger-menu.active .sidebar {
+      width: 250px;
+    }
+  
+    body.active {
+      margin-left: 250px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hamburger-menu">
+    <!-- Button to open the sidebar -->
+    <button class="open-sidebar-btn" onclick="toggleNav()">☰</button>
+  </div>
+
+  <div class="sidebar">
+    <a href="javascript:void(0)" class="close-btn" onclick="toggleNav()">x</a>
+    <!-- Move Home link here -->
+    <a href="testing.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="#">Contact</a>
+</div>
+
+  
+
+  <header>
+    <img src="angel-main-1626241299.jpg" alt="Magazine Logo">
+    <h1>A|P Magazine</h1>
+  </header>
+
+  <div class="featured-article">
+    <img src="Angel_locsin.webp" alt="Featured Article">
+    <h2>Angelica Locsin Colmenares</h2>
+    <p> (born April 23, 1985) is a Filipino actress and humanitarian. She is known for her dramatic roles and portrayals of heroines and mythological characters in film and television. She is a recipient of various accolades, including four Star Awards, three FAMAS Awards, two Box Office Entertainment Awards, and a Luna Award.
+      Born in Santa Maria, Bulacan, Locsin attended the University of Santo Tomas Junior High School. She began her acting career in the early 2000s by appearing in supporting roles on screen. She had her breakthrough as the avian-human hybrid protagonist in the fantasy series Mulawin (2004), before starring as the titular superhero in the Ravelo Komiks Universe series Darna (2005) to critical acclaim. For her role as a fledgling lycanthrope in the supernatural drama series Lobo (2008), Locsin earned an International Emmy Award nomination for Best Actress. She appeared in well-received romantic dramas, such as Love Me Again (2009), In the Name of Love (2011), and Unofficially Yours (2012), the last of which is Locsin's highest-grossing release to date. The family drama One More Try (2012), in which she played a single mother caring for her sick son, garnered her Best Actress wins at the Box Office Entertainment, FAMAS, Luna, and Star Awards. She received a Star Award for Best Drama Actress for her portrayal of an indoctrinated military nurse in the spy-action thriller series The General's Daughter (2019).
+      Known for her humanitarian efforts, Locsin has been named one of Asia's Heroes of Philanthropy by Forbes and Asia's Leaders of Tomorrow by Tatler. She promotes various causes, including disaster relief, education, and women's rights. Locsin was noted for her field missions to settlement camps of internally displaced persons during the 2017 armed conflicts in Mindanao. A public figure, she was cited as the world's sexiest woman by FHM Philippines in 2005 and 2010.</p>
+    <a href="https://en.wikipedia.org/wiki/Angel_Locsin">Read More</a>
+  </div>
+
+  <article>
+    <img src="angel (1).jpg" alt="Article 1">
+    <h2>Career</h2>
+    <p>2000–2007: Early roles and breakthrough
+      Locsin made her film debut as the young Robina Gokongwei in the 2000 biographical drama Ping Lacson: Super Cop.[11] She then signed a management deal with GMA Network and received her first television part as a series regular in the second season of the teen show Click.[9][12] She remained with the series from 2002 to 2004.[13] Locsin followed this with guest roles in several television shows, including Ang Iibigin ay Ikaw (2002), Twin Hearts (2003), and Love to Love (2003).[12][14] She appeared in the second and third installments of the Mano Po film franchise, Mano Po 2: My Home (2002) and Mano Po 3: My Love (2003).[15][16]    
+      Locsin's breakthrough role came as the avian-human hybrid protagonist in the fantasy action series Mulawin (2004).[17] GMA Network executive Redgie Magno initially approached Maxene Magalona for the part, but offered Locsin the role at Magalona's suggestion.[18] Dominic Zapata, the show's director, intended the concept of mythology to be a "break from Tagalized soaps", but also kept its "novelty" focused on the lead characters.[17] The following year, Locsin starred as the titular superhero in the Ravelo Komiks Universe[a] series Darna (2005), based on Mars Ravelo's comics superheroine of the same name.[20] Locsin was initially hesitant about the part because it required her to drop out of Mulawin, and she felt the series would end prematurely if she left.[21] Locsin agreed to the project after network executives convinced her to take the part.[21] She trained in karate, wushu, and street fighting to prepare.[22] The series garnered positive reviews,[23][24][25] with praise for Locsin's portrayal; Nestor Torre Jr. of the Philippine Daily Inquirer described the production as modern and trailblazing,[23] and commended Locsin's "strong presence".[26] Similarly, Pepe Diokno, also from the Philippine Daily Inquirer, wrote that "the [show's] success can be attributed to [Locsin], as she attracts every block and wing of Pinoy society."[24] During its premiere, Darna received the highest Nielsen ratings for a Filipino television series pilot episode with a reported 47.1 percent viewership.[27] Later that year, Locsin reprised the role of Alwina in Mulawin's film adaptation.[28]
+      In 2006, Locsin starred as a sorceress in the fantasy series Majika alongside Dennis Trillo.[29] In preparation for the part, she trained extensively in horseback riding with co-star and equestrienne Mikee Cojuangco-Jaworski.[30] The show was a critical disappointment;[31] Torre labeled it "less than magical":[32] "Unfortunately, the show is so visuals-driven that the gifted actors don't really have much opportunity to show what they can do."[32] Locsin was in three releases with Richard Gutierrez from 2006 to 2007. In the first, she starred in Mac Alejandre's romantic comedy I Will Always Love You as the love interest of Gutierrez's character.[33][34] She then appeared in the fifth installment of the Mano Po film series, Mano Po 5: Gua Ai Di (2006).[35] In the coming-of-age drama The Promise (2007), loosely based on Emily Brontë's 1847 novel Wuthering Heights,[36] Locsin portrayed a woman who falls in love with her adoptive brother.[36][37] The film and her performance received negative reviews from critics; the Philippine Daily Inquirer thought Locsin's transition to adult roles was rushed, "inadequate" and "embarrassing",[38] while critic Elyas Salanga found the film's narrative "typical" and "cliché".[37] Next, she was cast opposite Robin Padilla in the action adventure series Asian Treasures (2007).[39][40] She then played a facially disfigured victim of abuse in an episode of the anthology series Maalaala Mo Kaya.[41] Locsin's performance earned her a Star Award for Best Single Performance by an Actress.[42]</p>
+    <a href="https://en.wikipedia.org/wiki/Angel_Locsin">Read More</a>
+  </article>
+
+  <article>
+    <img src="02e28d7e8225d15cd4b1e94cbf3b1783.jpg" alt="Article 2">
+    <h2>Early life and background</h2>
+    <p>Angelica Locsin Colmenares was born on April 23, 1985, in Santa Maria, Bulacan, to Angelo and Emma Colmenares.[1][2] Locsin's father was a swimmer who earned a bronze medal when the Philippine team won the 4×200-meter freestyle relay during the 1954 Asian Games in Manila.[3][4] She has two younger siblings: Ella and Angelo.[1] Locsin is reluctant to publicly discuss her family background;[2] she was estranged from her mother until 2007,[2] and has ties to a noble family in Marawi, Lanao del Sur, through her maternal relatives.[5] Locsin and her siblings were raised by their father,[6] who was later diagnosed with complete blindness.[3][7] Locsin has said she regrets not being able to financially provide for her father's treatment at the onset of his condition.[7] She shares a close bond with her father and credits him as "instrumental" to her achievements.[3]
+      Locsin was educated at the University of Santo Tomas High School, where she was a member of the varsity swimming team.[8] During this period, she was spotted running errands at SM City North EDSA by a talent scout, who arranged for her to audition for television commercials.[9] After high school, she pursued acting and attended workshops under ABS-CBN's talent management arm Star Magic. She then unsuccessfully auditioned for a role in the teen series G-mik (1999).[10]</p>
+    <a href="https://en.wikipedia.org/wiki/Angel_Locsin">Read More</a>
+  </article>
+
+  <script>
+    function toggleNav() {
+      var body = document.querySelector('body');
+      body.classList.toggle('active');
+      var hamburgerMenu = document.querySelector('.hamburger-menu');
+      hamburgerMenu.classList.toggle('active');
+      var sidebar = document.querySelector('.sidebar');
+      sidebar.classList.toggle('active');
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>A|P Magazine</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1 {
+            font-family: "Montserrat", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            margin-bottom: -7px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .header-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed; /* Set the navbar to fixed position */
+            width: 100%; /* Full width */
+            top: 0; /* Position at the top of the page */
+            z-index: 1000; /* Set z-index to make it appear above other elements */
+        }
+
+        .navbar a {
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 18px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .content-container {
+            padding-top: 60px; /* Adjust the padding to match the height of the fixed navbar */
+        }
+
+        .carousel-container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .carousel-wrapper {
+            display: flex;
+            animation: slide 23s infinite linear;
+        }
+
+        .carousel-item {
+            flex: 0 0 100%;
+            max-width: 100%;
+            height: 600px;
+            overflow: hidden;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+
+        .w3-third img {
+            width: 100%;
+            transition: transform 0.2s;
+        }
+
+        .w3-third img:hover {
+            transform: scale(1.1);
+        }
+
+        .w3-opacity {
+            position: relative;
+        }
+
+        .w3-row {
+            margin-bottom: 128px;
+        }
+
+        .footer-container {
+            position: relative;
+        }
+
+        footer.w3-container {
+            margin-top: 128px;
+        }
+
+        .logo-container {
+            text-align: center;
+            animation: zoomAndRoll 2s forwards;
+        }
+
+        .logo-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @keyframes slide {
+            0%, 20% {
+                transform: translateX(0);
+            }
+
+            25%, 45% {
+                transform: translateX(-100%);
+            }
+
+            50%, 70% {
+                transform: translateX(-200%);
+            }
+
+            75%, 95% {
+                transform: translateX(-300%);
+            }
+        }
+
+        @keyframes zoomAndRoll {
+            0% {
+                transform: scale(0.6) rotate(0deg);
+            }
+
+            100% {
+                transform: scale(0.6) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="About.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+        <a href="https://www.usmagazine.com/celebrity-pictures/" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+        <a href="https://shopee.ph/" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a>
+        <a href="About.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+    </div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content content-container" style="max-width:1500px">
+        <!-- Header -->
+        <div class="header-container">
+            <div class="carousel-container">
+                <div class="carousel-wrapper">
+                    <!-- Add your ad images here -->
+                    <div class="carousel-item">
+                        <img src="bts lofficiel cover - lead image.jpg" alt="Ad 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Vogue Philippines.jpg" alt="Ad 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pinoy-global-covers-nm.jpg" alt="Ad 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="filipinos-with-international-magazine-covers-desktop-new.webp" alt="Ad 4">
+                    </div>
+                    <!-- Add more ads as needed -->
+                </div>
+            </div>
+            <div class="w3-clear"></div>
+            <header class="w3-center w3-margin-bottom">
+                <!-- Place the logo inside a div with the class "logo-container" -->
+                <div class="logo-container">
+                    <img src="Black.png" alt="Logo">
+                </div>
+                <h1><STYle></STYle><b>A|P MAGAZINES</b></h1>
+                <p><b>The Magazine Website, perfect for showcasing the work of photographers." .</b></p>
+                <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">A|P</button></p>
+            </header>
+        </div>
+
+        <!-- Photo Grid -->
+        <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+            <div class="w3-third">
+                <a href="page2.html"></a>
+                <a href="DIGONG.html">
+                    <img src="Du30.jpg" style="width:100%">
+                </a>
+                <a href="MannyPacks.html">
+                    <img src="manny.jpg" style="width:100%">
+                </a>
+                <a href="APO2.html">
+                    <img src="Apo.jpg" style="width:100%">
+                </a>
+                <a href="Catriona.html">
+                    <img src="catriona.webp" style="width:100%">
+                </a>
+                <!-- Add more grid items as needed -->
+            </div>
+
+            <div class="w3-third">
+                <a href="Enric.html">
+                    <img src="enrique.jpg" style="width:100%">
+                </a>
+                <a href="ANGEL2.html">
+                    <img src="angel.jpg" style="width:100%">
+                </a>
+                <a href="Ann.html">
+                    <img src="annCutiz.jpg" style="width:100%">
+                </a>
+                <a href="COCO2.html">
+                    <img src="Coco-Martin-Mens-Health.jpg" style="width:100%">
+                </a>
+                <!-- Add more grid items as needed -->
+            </div>
+
+            <div class="w3-third">
+                <a href="lOVI2.html">
+                    <img src="Lovi Poe.jpg" style="width:100%">
+                </a>
+                <a href="HEART2.html">
+                    <img src="Heart.jpg" style="width:100%">
+                </a>
+                <!-- Add more grid items as needed -->
+            </div>
+            <div class="w3-third">
+                <a href="alex.html">
+                    <img src="Alex.G.jpg" style="width:100%">
+                </a>
+                <a href="Daniel2.html">
+                    <img src="daniel.jpg" style="width:100%">
+                </a>
+            </div>
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge footer-container">
+        <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://snapchat.com" target="_blank"><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+        <a href="https://pinterest.com" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <p class="w3-medium">Designed by: Abundiente & Polillo</p>
+    </footer>
+
+    <script>
+        // Toggle grid padding
+        function myFunction() {
+            var x = document.getElementById("myGrid");
+            if (x.className === "w3-row") {
+                x.className = "w3-row-padding";
+            } else {
+                x.className = x.className.replace("w3-row-padding", "w3-row");
+            }
+        }
+    </script>
+</body>
+
+</html>
